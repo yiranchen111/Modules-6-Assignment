@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+    color: black; 
+    background-color: white; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.header, .footer {
+    background-color: lightgreen;
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+.logo {
+    max-width: 10%; 
+    height: auto; 
+    display: block;
+    margin-left: 0;
+}
+
+.menu a {
+    display: block; 
+    margin: 5px 0; 
+    color: black; 
+    text-decoration: none; 
+    padding: 5px; 
+}
+
+.menu a:hover {
+    text-decoration: underline; 
+}
+
+.content {
+    padding: 20px; 
+}
+
+.content-image {
+    max-width: 80%; 
+    height: auto; 
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    .menu a {
+        display: inline-block; 
+        margin: 0 10px; 
+    }
+}
